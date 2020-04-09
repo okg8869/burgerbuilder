@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+// CSS
 import classes from './BurgerIngredient.module.css'
-import BurgerBuilder from '../../../containers/BurgerBuilder/BurgerBuilder';
+
 
 class BurgerIngredient extends Component {
   render () {
@@ -16,7 +17,7 @@ class BurgerIngredient extends Component {
           ingredient = (
             <div className={classes.BreadTop}>
               <div className={classes.Seeds1}/>
-              <div className={classes.seeds2}/>
+              <div className={classes.Seeds2}/>
             </div>
           );
           break;
