@@ -4,7 +4,7 @@ import React, { useLayoutEffect } from 'react';
 import Aux from '../../hoc/Auxillary';
 
 // CSS
-import classes from './Layout.css';
+import classes from './Layout.module.css';
 
 const Layout = (props) => (
   <Aux>
