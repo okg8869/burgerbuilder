@@ -23,8 +23,6 @@ const burger = (props) => {
   if (ingredientsMap.length === 0) {
     ingredientsMap = <p>Please start adding ingredients!</p>
   }
-
-  console.log(ingredientsMap)
   
   return (
     <div className={classes.Burger}>
