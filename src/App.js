@@ -4,16 +4,12 @@ import React from 'react';
 import Layout from './hoc/Layout/Layout';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 
-// remember video 123 (enabling modules and editing webpack.config 
-// to turn on styling and whatnot)
-
-
 function App() {
   return (
     <div>
       <Layout>
         <BurgerBuilder/>
-      </Layout>
+      </Layout>w
     </div>
   );
 }

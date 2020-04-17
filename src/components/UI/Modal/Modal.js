@@ -11,7 +11,7 @@ import classes from './Modal.module.css';
 // shouldComponentUpdate being checked below
 class Modal extends Component {
   shouldComponentUpdate(nextProps, nextState) {
-    return nextProps.show !== this.props.show;
+    return nextProps.show !== this.props.show || nextProps.children !== this.props.children; // checking the children components (OrderSummary)
   }
 
   componentDidUpdate() {
